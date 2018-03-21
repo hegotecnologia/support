@@ -21,7 +21,7 @@
             "HEGO\\Support\\Tests\\": "tests"
         },
         "files": [
-            "src/Helpers/helpers.php"
+            "src/Helpers/functions.php"
         ]
     },
     "config": {
