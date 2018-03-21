@@ -1,6 +1,6 @@
 <?php
 
-namespace HEGO\Support\Modules;
+namespace HEGO\Support\Units;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
