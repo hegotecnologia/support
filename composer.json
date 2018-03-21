@@ -1,0 +1,32 @@
+{
+    "name": "hego/support",
+    "description": "Um pacote de suporte para sua aplicação Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matheus Gomes",
+            "email": "matheus@hego.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.4",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HEGO\\Support\\": "src",
+            "HEGO\\Support\\Tests\\": "tests"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
