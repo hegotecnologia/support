@@ -10,7 +10,7 @@ abstract class Migration extends LaravelMigration
      * @var \Illuminate\Database\Schema\Builder
      */
     protected $schema;
-    
+
     public function __construct()
     {
         $this->schema = app('db')->connection()->getSchemaBuilder();
@@ -20,7 +20,7 @@ abstract class Migration extends LaravelMigration
      * Run the migrations.
      */
     abstract public function up();
-    
+
     /**
      * Reverse the migrations.
      */
